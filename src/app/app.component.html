@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
   <h1>My Frist Angular Project...</h1>
 </div>
 <div>
@@ -64,4 +64,154 @@
        <div class="col-sm-3"><input class="form-control" placeholder="Enter Your name" type="text"/></div>
        <div class="col-sm-3"></div>
      </div>
+</div> -->
+
+<!-- <div>
+  <h1>This is a component example...</h1>
 </div>
+<div class="row">
+  <div class="col-sm-12">
+    <app-test-a></app-test-a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <app-test-b></app-test-b>
+  </div>
+</div>
+<div class="row">
+<div class="col-sm-6">
+  <h2>This is module A</h2>
+  <app-demo-a></app-demo-a>
+  <app-demo-b></app-demo-b>
+</div>
+  <div class="col-sm-6">
+    <h2>This is module B</h2>
+    <app-demo-c></app-demo-c>
+    <app-demo-d></app-demo-d>
+  </div>
+  </div> -->
+  <!-- <div class="row">
+    <div class="col-sm-12">
+     <h1>this is a title: {{title}}</h1>
+    </div>
+   </div>
+   <hr>
+   <hr>
+  <div class="row">
+   <div class="col-sm-12">
+    <h1>this is  a value: {{a}}</h1>
+   </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-sm-12">
+     <h1>this is  array values: {{arr[0]}},{{arr[1]}},{{arr[2]}},{{arr[3]}},{{arr[4]}}</h1>
+    </div>
+   </div>
+   <hr>
+   <hr>
+   <div class="row">
+    <div class="col-sm-12">
+     <h1>show method : {{show()}}</h1>
+    </div>
+   </div>
+   <hr>
+   <hr>
+   <div class="row">
+    <div class="col-sm-12">
+     <h1>add method : {{add(20,30)}}</h1>
+    </div>
+   </div>
+   <hr>
+   <hr>
+   <div class="row">
+    <div class="col-sm-12">
+     <h1>operations method : {{operations(10,50,"+")}}</h1>
+    </div>
+   </div> -->
+
+   <div class="row">
+      <div  class="col-sm-12"> 
+         <h1> this is 2 way binding</h1>
+      </div>
+   </div>
+   <hr>
+   <button class="btn btn-primary" (click)="btn_click()"> click me</button>
+   <hr>
+   <hr>
+   <div class="row">
+        <input type="text" [(ngModel)]="Name"/>
+        <h2>{{Name}}</h2>
+   </div>
+  
+   <!-- <div class="row">
+        <div>
+        <button class="btn btn-primary"  value="Toggle" (click)="toggle()"> click</button><br>
+        <span *ngIf="hflag">Hello</span>
+        <span *ngIf="bflag">Bye</span>
+        </div>
+   </div>
+  <div>
+   <button class="btn btn-primary" value="{{ToggleText}}" (click)="toggling()">Click2</button>
+   <div *ngIf="ToggleFlag; then trueblock; else falseblock"></div>
+   <ng-template #trueblock>
+      <h3>Like</h3>
+   </ng-template>
+   <ng-template #falseblock>
+    <h3>UnLike</h3>
+ </ng-template>
+  </div> -->
+
+  <!-- <div>
+    <h2>Table</h2>
+    <div>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>EmpId</th>
+            <th> EmpName </th>
+            <th> gender </th>
+            <th>password  </th>
+            <th> phone </th>
+            <th> Email </th>
+            <th>salary  </th>
+            <th> address </th>
+            <th> dob </th>
+            <th> deptno </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let emp of empList">
+          <td>{{emp.empId}}</td>
+          <td>{{emp.eName | gender:emp.gender |uppercase}}</td>
+          <td>{{emp.gender}}</td>
+          <td>{{emp.password}}</td>
+          <td>{{emp.phone}}</td>
+          <td>{{emp.eMail}}</td>
+          <td>{{emp.salary}}</td>
+          <td>{{emp.address}}</td>
+          <td>{{emp.dob |date:"shortDate"}}</td>
+          <td>{{emp.deptNo}}</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="row">
+      <div>
+        <h1>pipes examples:</h1>
+      </div>
+      <div>
+        <h2>{{name | uppercase}}</h2>
+      </div>
+  </div>
+  <div class="row">
+    <div>
+      <h1>custom pipes examples:</h1>
+    </div>
+    <div>
+      <h2>{{name}}</h2>
+      <h2>{{name | gender:'Male'}}</h2>
+    </div>
+</div> -->
